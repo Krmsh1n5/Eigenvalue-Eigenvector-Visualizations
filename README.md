@@ -26,4 +26,4 @@ This repository contains Jupyter notebooks demonstrating the use of eigenvalues 
 ## Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Eigenvalue-Eigenvector-Visualizations.git
+   git clone https://github.com/Krmsh1n5/Eigenvalue-Eigenvector-Visualizations.git
