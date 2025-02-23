@@ -53,7 +53,7 @@ To explore these notebooks:
    ```
 
 5. **Open the desired notebook**:
-   - For KPCA, select `Principal_Component_Analysis_(PCA).ipynb`.
+   - For PCA, select `Principal_Component_Analysis_(PCA).ipynb`.
 
 ## Prerequisites
 
