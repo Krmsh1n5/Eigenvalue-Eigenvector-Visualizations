@@ -6,25 +6,25 @@ This repository contains Jupyter notebooks demonstrating the application of eige
 
 ### 1. EigenClass
 
-- **Notebook**: `EigenClass_Visualization.ipynb`
+- **Notebook**: `EigenClass/EigenClass.ipynb`
 - **Description**: Explores the use of eigenvalues and eigenvectors in classification tasks through the EigenClass algorithm.
 - **Visualization**: Presents scatter plots highlighting eigenvector directions.
 
 ### 2. Google's PageRank Algorithm
 
-- **Notebook**: `PageRank_Visualization.ipynb`
+- **Notebook**: `PageRank/Google’s_PageRank_Algorithm.ipynb`
 - **Description**: Demonstrates the PageRank algorithm, utilizing eigenvalues and eigenvectors to rank web pages.
 - **Visualization**: Features directed graphs illustrating PageRank scores.
 
 ### 3. Principal Component Analysis (PCA)
 
-- **Notebook**: `PCA_Visualization.ipynb`
+- **Notebook**: `PCA/Principal_Component_Analysis_(PCA).ipynb`
 - **Description**: Showcases PCA for dimensionality reduction, emphasizing the role of eigenvalues and eigenvectors.
 - **Visualization**: Includes scatter plots of original and reduced-dimensionality data.
 
 ### 4. Kernel Principal Component Analysis (KPCA)
 
-- **Notebook**: `KPCA_Visualization.ipynb`
+- **Notebook**: `KernelPCA/GeneralizedEigenVectors.ipynb`
 - **Description**: Introduces KPCA, a non-linear extension of PCA that employs kernel methods to capture complex data structures.
 - **Visualization**: Provides plots demonstrating the transformation of data into higher-dimensional spaces, facilitating the separation of non-linearly separable data.
 
@@ -53,7 +53,7 @@ To explore these notebooks:
    ```
 
 5. **Open the desired notebook**:
-   - For KPCA, select `KPCA_Visualization.ipynb`.
+   - For KPCA, select `Principal_Component_Analysis_(PCA).ipynb`.
 
 ## Prerequisites
 
