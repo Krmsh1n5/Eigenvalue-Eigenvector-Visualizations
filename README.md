@@ -1,29 +1,69 @@
 # Eigenvalue and Eigenvector Visualizations
 
-This repository contains Jupyter notebooks demonstrating the use of eigenvalues and eigenvectors in various applications, including EigenClass, Google’s PageRank Algorithm, and Principal Component Analysis (PCA).
+This repository contains Jupyter notebooks demonstrating the application of eigenvalues and eigenvectors across various domains, including EigenClass, Google's PageRank Algorithm, Principal Component Analysis (PCA), and Kernel Principal Component Analysis (KPCA).
 
 ## Notebooks
 
 ### 1. EigenClass
-- **Notebook**: [EigenClass_Visualization.ipynb](./EigenClass/EigenClass_Visualization.ipynb)
-- **Description**: Demonstrates the use of eigenvalues and eigenvectors for classification tasks using the EigenClass algorithm.
-- **Visualization**: Includes scatter plots and eigenvector directions.
 
-### 2. Google’s PageRank Algorithm
-- **Notebook**: [PageRank_Visualization.ipynb](./PageRank/PageRank_Visualization.ipynb)
-- **Description**: Illustrates the PageRank algorithm using eigenvalues and eigenvectors to rank web pages.
-- **Visualization**: Includes a directed graph and PageRank scores.
+- **Notebook**: `EigenClass_Visualization.ipynb`
+- **Description**: Explores the use of eigenvalues and eigenvectors in classification tasks through the EigenClass algorithm.
+- **Visualization**: Presents scatter plots highlighting eigenvector directions.
+
+### 2. Google's PageRank Algorithm
+
+- **Notebook**: `PageRank_Visualization.ipynb`
+- **Description**: Demonstrates the PageRank algorithm, utilizing eigenvalues and eigenvectors to rank web pages.
+- **Visualization**: Features directed graphs illustrating PageRank scores.
 
 ### 3. Principal Component Analysis (PCA)
-- **Notebook**: [PCA_Visualization.ipynb](./PCA/PCA_Visualization.ipynb)
-- **Description**: Demonstrates PCA for dimensionality reduction using eigenvalues and eigenvectors.
-- **Visualization**: Includes scatter plots of original and PCA-transformed data.
 
-## Requirements
-- Python 3.x
-- Libraries: NumPy, scikit-learn, matplotlib, networkx
+- **Notebook**: `PCA_Visualization.ipynb`
+- **Description**: Showcases PCA for dimensionality reduction, emphasizing the role of eigenvalues and eigenvectors.
+- **Visualization**: Includes scatter plots of original and reduced-dimensionality data.
 
-## Usage
-1. Clone the repository:
+### 4. Kernel Principal Component Analysis (KPCA)
+
+- **Notebook**: `KPCA_Visualization.ipynb`
+- **Description**: Introduces KPCA, a non-linear extension of PCA that employs kernel methods to capture complex data structures.
+- **Visualization**: Provides plots demonstrating the transformation of data into higher-dimensional spaces, facilitating the separation of non-linearly separable data.
+
+## Getting Started
+
+To explore these notebooks:
+
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/Krmsh1n5/Eigenvalue-Eigenvector-Visualizations.git
+   ```
+
+2. **Navigate to the repository directory**:
+   ```bash
+   cd Eigenvalue-Eigenvector-Visualizations
+   ```
+
+3. **Install the required dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Launch Jupyter Notebook**:
+   ```bash
+   jupyter notebook
+   ```
+
+5. **Open the desired notebook**:
+   - For KPCA, select `KPCA_Visualization.ipynb`.
+
+## Prerequisites
+
+- Python 3.x
+- Jupyter Notebook
+- Required Python packages listed in `requirements.txt`
+
+## References
+
+- **Kernel Principal Component Analysis**: A comprehensive overview is available on [Wikipedia](https://en.wikipedia.org/wiki/Kernel_principal_component_analysis).
+- **KPCA Sample Code**: Practical examples can be found in this [GitHub repository](https://github.com/sassoftware/kernel-pca-sample-code).
+
+By integrating KPCA into the repository, users can now explore both linear and non-linear dimensionality reduction techniques, gaining deeper insights into the applications of eigenvalues and eigenvectors.
